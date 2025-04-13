@@ -86,8 +86,8 @@ li {
 
 .contacts-list {
     display: flex;
-    justify-content: flex-end;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
     gap: 40px;
 }
 
@@ -179,6 +179,10 @@ button {
 .features {
     padding: 120px 0;
      
+}
+
+.visually-hidden {
+  position: absolute;
 }
 
 .features-item {
